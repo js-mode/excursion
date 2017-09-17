@@ -1,60 +1,41 @@
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: Verdana, sans-serif;
+  background-color: black;
+  text-align: center;
 }
 
 h1 {
-  color: khaki;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  text-align: center;
-  font-size: 100px;
-  border: 1px solid powderblue;
-}
-
-img {
-  border: 2px solid black;
-}
-
-.frames-img {
-  border: white;
-}
-
-.frames, .paint, .brushes {
   color: white;
-  width: 100%;
-  font-size: 32px;
-  padding: 0.25em 0.625em;
+  font-size: 50px;
+  font-weight: normal;
 }
 
-.price {
-  color: blue;
-  font-weight: bold;
+.download {
+  font-size: 16px;
+  color: Aquamarine;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
-.frames {
-  background: lightcoral;
-  float:left;
-  flex-flow: row wrap;
-  text-align: left;
+.travel-guide {
+  font-size: 42px;
+  font-weight: 300;
+  color: white;
 }
 
-.frames-text {
-  width: 100%;
-  font-size: 1.4em;
-  padding-left: 20px;
-  text-align: center;
-  float: right;
+.recommends {
+  color: gray;
+  font-size: 21px;
 }
 
-.frames-img {
-  padding: 15px 40px;
+.coming-soon {
+  color: white;
+  font-size: 46px;
+  font-weight: normal;
 }
 
-.paint {
-  background: skyblue;
-}
-
-.brushes {
-  background: mediumspringgreen;
-  margin: 0 auto;
+.copyright {
+  color: gray;
+  text-align: right;
 }
