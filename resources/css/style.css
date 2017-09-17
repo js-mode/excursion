@@ -15,7 +15,6 @@ h1 {
   font-size: 16px;
   color: Aquamarine;
   font-weight: normal;
-  text-decoration: underline;
 }
 
 .travel-guide {
@@ -35,7 +34,16 @@ h1 {
   font-weight: normal;
 }
 
+.tent-image {
+  padding: 5px;
+}
+
+.iphone-logo {
+  padding-top: 50px;
+}
+
 .copyright {
   color: gray;
   text-align: right;
+  padding-right: 150px;
 }
